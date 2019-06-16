@@ -88,6 +88,12 @@ jobs:
     compiler: clang
     env: CMAKE_BUILD_TYPE=Release GTSAM_BUILD_UNSTABLE=OFF GTSAM_USE_QUATERNIONS=ON
     script: bash .travis.sh -t
+# on Linux, with GTSAM_TYPEDEF_POINTS_TO_VECTOR OFF to make sure that path still compiles/tests
+  - stage: special
+    os: linux
+    compiler: clang
+    env: CMAKE_BUILD_TYPE=Release GTSAM_BUILD_UNSTABLE=ON GTSAM_TYPEDEF_POINTS_TO_VECTOR=OFF
+    script: bash .travis.sh -t
 
 # Matrix configuration:
 os:
@@ -102,6 +108,7 @@ env:
     - CCACHE_SLOPPINESS=pch_defines,time_macros
     - GTSAM_ALLOW_DEPRECATED_SINCE_V4=OFF
     - GTSAM_USE_QUATERNIONS=OFF
+    - GTSAM_TYPEDEF_POINTS_TO_VECTOR=ON
     - GTSAM_BUILD_UNSTABLE=ON
   matrix:
     - CMAKE_BUILD_TYPE=Debug GTSAM_BUILD_UNSTABLE=OFF
