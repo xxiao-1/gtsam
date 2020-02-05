@@ -19,9 +19,10 @@ Expression<T> between(const Expression<T>& t1, const Expression<T>& t2) {
 }
 
 // Generic compose, assumes existence of traits<T>::Compose
-template <typename T>
-Expression<T> compose(const Expression<T>& t1, const Expression<T>& t2) {
-  return Expression<T>(traits<T>::Compose, t1, t2);
+// The mixed-type version r = a (+) b allows "r" to be the same type than "b"
+template <typename T, typename Result=T>
+Expression<Result> compose(const Expression<T> &t1, const Expression<Result> &t2) {
+  return Expression<Result>(traits<T>::Compose, t1, t2);
 }
 
 // Some typedefs
@@ -36,4 +37,4 @@ typedef Expression<Vector7> Vector7_;
 typedef Expression<Vector8> Vector8_;
 typedef Expression<Vector9> Vector9_;
 
-}  // \namespace gtsam
+} // namespace gtsam
