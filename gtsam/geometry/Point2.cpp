@@ -94,6 +94,12 @@ std::list<Point2> CircleCircleIntersection(Point2 c1, double r1, Point2 c2, doub
 #endif // GTSAM_TYPEDEF_POINTS_TO_VECTORS
 
 /* ************************************************************************* */
+ostream &operator<<(ostream &os, const Point2& p) {
+  os << '(' << p(0) << ", " << p(1) << ')';
+  return os;
+}
+
+/* ************************************************************************* */
 // Math inspired by http://paulbourke.net/geometry/circlesphere/
 boost::optional<Point2> circleCircleIntersection(double R_d, double r_d,
     double tol) {

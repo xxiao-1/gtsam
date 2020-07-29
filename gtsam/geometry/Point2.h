@@ -28,6 +28,9 @@ namespace gtsam {
   /// it is now possible to just typedef Point2 to Vector2
   typedef Vector2 Point2;
 
+  /// Output stream operator
+  GTSAM_EXPORT std::ostream &operator<<(std::ostream &os, const Point2& p);
+
 #else
 
 /**
@@ -110,7 +113,7 @@ public:
 
   /// @}
 
-  /// Streaming
+  /// Output stream operator
   GTSAM_EXPORT friend std::ostream &operator<<(std::ostream &os, const Point2& p);
 
 #ifdef GTSAM_ALLOW_DEPRECATED_SINCE_V4

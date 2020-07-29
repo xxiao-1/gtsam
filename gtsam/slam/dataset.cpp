@@ -941,7 +941,8 @@ bool writeBAL(const string& filename, SfmData &data) {
     Pose3 poseGTSAM = data.cameras[i].pose();
     Cal3Bundler cameraCalibration = data.cameras[i].calibration();
     Pose3 poseOpenGL = gtsam2openGL(poseGTSAM);
-    os << Rot3::Logmap(poseOpenGL.rotation()) << endl;
+    Vector3 xi = Rot3::Logmap(poseOpenGL.rotation());
+    os << xi(0) << endl << xi(1) << endl << xi(2) << endl;
     os << poseOpenGL.translation().x() << endl;
     os << poseOpenGL.translation().y() << endl;
     os << poseOpenGL.translation().z() << endl;

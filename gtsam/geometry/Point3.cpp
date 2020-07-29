@@ -80,6 +80,13 @@ Point3 Point3::sub(const Point3 &q, OptionalJacobian<3,3> H1,
 #endif
 
 #endif
+
+/* ************************************************************************* */
+ostream &operator<<(ostream &os, const Point3& p) {
+  os << '[' << p(0) << ", " << p(1) << ", " << p(2) << "]'";
+  return os;
+}
+
 /* ************************************************************************* */
 double distance3(const Point3 &p1, const Point3 &q, OptionalJacobian<1, 3> H1,
                  OptionalJacobian<1, 3> H2) {

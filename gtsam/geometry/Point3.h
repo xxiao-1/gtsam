@@ -35,6 +35,9 @@ namespace gtsam {
   /// it is now possible to just typedef Point3 to Vector3
   typedef Vector3 Point3;
 
+  /// Output stream operator
+  GTSAM_EXPORT std::ostream &operator<<(std::ostream &os, const Point3& p);
+
 #else
 
 /**

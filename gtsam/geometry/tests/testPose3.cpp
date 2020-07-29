@@ -863,12 +863,7 @@ TEST( Pose3, stream)
   std::ostringstream os;
   os << T;
 
-  string expected;
-#ifdef GTSAM_TYPEDEF_POINTS_TO_VECTORS
-  expected = "R: [\n\t1, 0, 0;\n\t0, 1, 0;\n\t0, 0, 1\n]\nt: 0\n0\n0";;
-#else
-  expected = "R: [\n\t1, 0, 0;\n\t0, 1, 0;\n\t0, 0, 1\n]\nt: [0, 0, 0]'";
-#endif
+  string expected = "R: [\n\t1, 0, 0;\n\t0, 1, 0;\n\t0, 0, 1\n]\nt: [0, 0, 0]'";
 
   EXPECT(os.str() == expected);
 }
@@ -1044,9 +1039,7 @@ TEST(Pose3, print) {
   expected << "R: [\n\t1, 0, 0;\n\t0, 1, 0;\n\t0, 0, 1\n]\n";
 
 #ifdef GTSAM_TYPEDEF_POINTS_TO_VECTORS
-  expected << "t: 1\n"
-              "2\n"
-              "3\n";
+  expected << "t: [1, 2, 3]'\n";
 #else
   expected << "t: [" << translation.x() << ", " << translation.y() << ", " << translation.z() << "]'\n";
 #endif
