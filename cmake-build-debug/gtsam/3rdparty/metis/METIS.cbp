@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="METIS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\CppUnitLite\;CMake Files\gtsam\;CMake Files\gtsam\3rdparty\;CMake Files\gtsam\3rdparty\GeographicLib\;CMake Files\gtsam\3rdparty\GeographicLib\cmake\;CMake Files\gtsam\3rdparty\metis\;CMake Files\gtsam\3rdparty\metis\GKlib\;CMake Files\gtsam\3rdparty\metis\GKlib\conf\;CMake Files\gtsam\3rdparty\metis\include\;CMake Files\gtsam\3rdparty\metis\libmetis\;CMake Files\gtsam\3rdparty\ceres\;CMake Files\gtsam\base\;CMake Files\gtsam\base\tests\;CMake Files\gtsam\geometry\;CMake Files\gtsam\geometry\tests\;CMake Files\gtsam\inference\;CMake Files\gtsam\inference\tests\;CMake Files\gtsam\symbolic\;CMake Files\gtsam\symbolic\tests\;CMake Files\gtsam\discrete\;CMake Files\gtsam\discrete\tests\;CMake Files\gtsam\linear\;CMake Files\gtsam\linear\tests\;CMake Files\gtsam\nonlinear\;CMake Files\gtsam\nonlinear\tests\;CMake Files\gtsam\sam\;CMake Files\gtsam\sam\tests\;CMake Files\gtsam\sfm\;CMake Files\gtsam\sfm\tests\;CMake Files\gtsam\slam\;CMake Files\gtsam\slam\tests\;CMake Files\gtsam\navigation\;CMake Files\gtsam\navigation\tests\;CMake Files\tests\;CMake Files\examples\;CMake Files\timing\;CMake Files\gtsam_unstable\;CMake Files\gtsam_unstable\base\;CMake Files\gtsam_unstable\base\tests\;CMake Files\gtsam_unstable\geometry\;CMake Files\gtsam_unstable\geometry\tests\;CMake Files\gtsam_unstable\linear\;CMake Files\gtsam_unstable\linear\tests\;CMake Files\gtsam_unstable\discrete\;CMake Files\gtsam_unstable\discrete\tests\;CMake Files\gtsam_unstable\discrete\examples\;CMake Files\gtsam_unstable\dynamics\;CMake Files\gtsam_unstable\dynamics\tests\;CMake Files\gtsam_unstable\nonlinear\;CMake Files\gtsam_unstable\nonlinear\tests\;CMake Files\gtsam_unstable\slam\;CMake Files\gtsam_unstable\slam\tests\;CMake Files\gtsam_unstable\partition\;CMake Files\gtsam_unstable\partition\tests\;CMake Files\gtsam_unstable\examples\;CMake Files\gtsam_unstable\timing\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="metis-gtsam">
+				<Option output="/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/libmetis/libmetis-gtsamDebug.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/libmetis"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib"/>
+					<Add directory="/home/xxiao/gtsam/gtsam/3rdparty/metis/include"/>
+					<Add directory="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/libmetis/Makefile&quot;  VERBOSE=1 metis-gtsam"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/libmetis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/libmetis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/libmetis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="metis-gtsam/fast">
+				<Option output="/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/libmetis/libmetis-gtsamDebug.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/libmetis"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib"/>
+					<Add directory="/home/xxiao/gtsam/gtsam/3rdparty/metis/include"/>
+					<Add directory="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/."/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/libmetis/Makefile&quot;  VERBOSE=1 metis-gtsam/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/libmetis/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/libmetis/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/xxiao/gtsam/cmake-build-debug/gtsam/3rdparty/metis/libmetis/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/b64.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/blas.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/csr.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/error.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/evaluate.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/fkvkselect.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/fs.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/getopt.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/gkregex.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/gkregex.h">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/graph.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/htable.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/io.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/itemsets.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/mcore.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/memory.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/omp.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/pdb.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/pqueue.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/random.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/rw.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/seq.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/sort.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/string.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/timers.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/tokenizer.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/util.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/auxapi.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/balance.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/bucketsort.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/checkgraph.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/coarsen.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/compress.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/contig.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/debug.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/fm.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/fortran.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/frename.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/gklib.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/graph.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/initpart.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/kmetis.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/kwayfm.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/kwayrefine.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/mcutil.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/mesh.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/meshpart.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/minconn.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/mincover.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/mmd.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/ometis.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/options.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/parmetis.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/pmetis.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/refine.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/separator.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/sfm.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/srefine.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/stat.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/timing.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/util.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/wspace.c">
+			<Option target="metis-gtsam"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_extra.cmake.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/cmake/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/cmake/Config.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/cmake/FindBoost.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/cmake/FindGooglePerfTools.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/cmake/FindMKL.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/cmake/FindTBB.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/cmake/GtsamBuildTypes.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/cmake/GtsamMakeConfigFile.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/cmake/GtsamPrinting.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/cmake/GtsamTesting.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/cmake/cmake_uninstall.cmake.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/cmake/dllexport.h.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/CppUnitLite/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\CppUnitLite\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/config.h.in">
+			<Option virtualFolder="CMake Files\gtsam\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\3rdparty\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/GeographicLib/cmake/FindGeographicLib.cmake">
+			<Option virtualFolder="CMake Files\gtsam\3rdparty\GeographicLib\cmake\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\3rdparty\metis\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/GKlibSystem.cmake">
+			<Option virtualFolder="CMake Files\gtsam\3rdparty\metis\GKlib\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/GKlib/conf/check_thread_storage.c">
+			<Option virtualFolder="CMake Files\gtsam\3rdparty\metis\GKlib\conf\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/include/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\3rdparty\metis\include\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/metis/libmetis/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\3rdparty\metis\libmetis\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/3rdparty/ceres/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\3rdparty\ceres\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\base\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/base/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\base\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/geometry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\geometry\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/geometry/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\geometry\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/inference/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\inference\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/inference/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\inference\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/symbolic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\symbolic\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/symbolic/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\symbolic\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/discrete/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\discrete\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/discrete/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\discrete\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/linear/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\linear\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/linear/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\linear\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/nonlinear/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\nonlinear\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/nonlinear/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\nonlinear\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/sam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\sam\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/sam/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\sam\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/sfm/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\sfm\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/sfm/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\sfm\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/slam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\slam\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/slam/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\slam\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/navigation/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\navigation\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam/navigation/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam\navigation\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\examples\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/timing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\timing\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/base/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\base\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/base/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\base\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/geometry/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\geometry\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/geometry/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\geometry\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/linear/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\linear\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/linear/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\linear\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/discrete/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\discrete\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/discrete/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\discrete\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/discrete/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\discrete\examples\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/dynamics/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\dynamics\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/dynamics/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\dynamics\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/nonlinear/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\nonlinear\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\nonlinear\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/slam/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\slam\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/slam/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\slam\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/partition/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\partition\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/partition/tests/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\partition\tests\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/examples/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\examples\"/>
+		</Unit>
+		<Unit filename="/home/xxiao/gtsam/gtsam_unstable/timing/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\gtsam_unstable\timing\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

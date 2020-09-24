@@ -1,0 +1,26 @@
+# CMake generated Testfile for 
+# Source directory: /home/xxiao/gtsam/gtsam_unstable/nonlinear/tests
+# Build directory: /home/xxiao/gtsam/cmake-build-debug/gtsam_unstable/nonlinear/tests
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(testBatchFixedLagSmoother "/home/xxiao/gtsam/cmake-build-debug/gtsam_unstable/nonlinear/tests/testBatchFixedLagSmoother")
+set_tests_properties(testBatchFixedLagSmoother PROPERTIES  _BACKTRACE_TRIPLES "/home/xxiao/gtsam/cmake/GtsamTesting.cmake;176;add_test;/home/xxiao/gtsam/cmake/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;1;gtsamAddTestsGlob;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;0;")
+add_test(testConcurrentBatchFilter "/home/xxiao/gtsam/cmake-build-debug/gtsam_unstable/nonlinear/tests/testConcurrentBatchFilter")
+set_tests_properties(testConcurrentBatchFilter PROPERTIES  _BACKTRACE_TRIPLES "/home/xxiao/gtsam/cmake/GtsamTesting.cmake;176;add_test;/home/xxiao/gtsam/cmake/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;1;gtsamAddTestsGlob;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;0;")
+add_test(testConcurrentBatchSmoother "/home/xxiao/gtsam/cmake-build-debug/gtsam_unstable/nonlinear/tests/testConcurrentBatchSmoother")
+set_tests_properties(testConcurrentBatchSmoother PROPERTIES  _BACKTRACE_TRIPLES "/home/xxiao/gtsam/cmake/GtsamTesting.cmake;176;add_test;/home/xxiao/gtsam/cmake/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;1;gtsamAddTestsGlob;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;0;")
+add_test(testConcurrentIncrementalFilter "/home/xxiao/gtsam/cmake-build-debug/gtsam_unstable/nonlinear/tests/testConcurrentIncrementalFilter")
+set_tests_properties(testConcurrentIncrementalFilter PROPERTIES  _BACKTRACE_TRIPLES "/home/xxiao/gtsam/cmake/GtsamTesting.cmake;176;add_test;/home/xxiao/gtsam/cmake/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;1;gtsamAddTestsGlob;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;0;")
+add_test(testConcurrentIncrementalSmootherDL "/home/xxiao/gtsam/cmake-build-debug/gtsam_unstable/nonlinear/tests/testConcurrentIncrementalSmootherDL")
+set_tests_properties(testConcurrentIncrementalSmootherDL PROPERTIES  _BACKTRACE_TRIPLES "/home/xxiao/gtsam/cmake/GtsamTesting.cmake;176;add_test;/home/xxiao/gtsam/cmake/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;1;gtsamAddTestsGlob;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;0;")
+add_test(testConcurrentIncrementalSmootherGN "/home/xxiao/gtsam/cmake-build-debug/gtsam_unstable/nonlinear/tests/testConcurrentIncrementalSmootherGN")
+set_tests_properties(testConcurrentIncrementalSmootherGN PROPERTIES  _BACKTRACE_TRIPLES "/home/xxiao/gtsam/cmake/GtsamTesting.cmake;176;add_test;/home/xxiao/gtsam/cmake/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;1;gtsamAddTestsGlob;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;0;")
+add_test(testIncrementalFixedLagSmoother "/home/xxiao/gtsam/cmake-build-debug/gtsam_unstable/nonlinear/tests/testIncrementalFixedLagSmoother")
+set_tests_properties(testIncrementalFixedLagSmoother PROPERTIES  _BACKTRACE_TRIPLES "/home/xxiao/gtsam/cmake/GtsamTesting.cmake;176;add_test;/home/xxiao/gtsam/cmake/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;1;gtsamAddTestsGlob;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;0;")
+add_test(testLinearizedFactor "/home/xxiao/gtsam/cmake-build-debug/gtsam_unstable/nonlinear/tests/testLinearizedFactor")
+set_tests_properties(testLinearizedFactor PROPERTIES  _BACKTRACE_TRIPLES "/home/xxiao/gtsam/cmake/GtsamTesting.cmake;176;add_test;/home/xxiao/gtsam/cmake/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;1;gtsamAddTestsGlob;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;0;")
+add_test(testNonlinearClusterTree "/home/xxiao/gtsam/cmake-build-debug/gtsam_unstable/nonlinear/tests/testNonlinearClusterTree")
+set_tests_properties(testNonlinearClusterTree PROPERTIES  _BACKTRACE_TRIPLES "/home/xxiao/gtsam/cmake/GtsamTesting.cmake;176;add_test;/home/xxiao/gtsam/cmake/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;1;gtsamAddTestsGlob;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;0;")
+add_test(testParticleFactor "/home/xxiao/gtsam/cmake-build-debug/gtsam_unstable/nonlinear/tests/testParticleFactor")
+set_tests_properties(testParticleFactor PROPERTIES  _BACKTRACE_TRIPLES "/home/xxiao/gtsam/cmake/GtsamTesting.cmake;176;add_test;/home/xxiao/gtsam/cmake/GtsamTesting.cmake;30;gtsamAddTestsGlob_impl;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;1;gtsamAddTestsGlob;/home/xxiao/gtsam/gtsam_unstable/nonlinear/tests/CMakeLists.txt;0;")
